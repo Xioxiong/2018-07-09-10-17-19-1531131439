@@ -7,7 +7,7 @@ import static org.fest.assertions.api.Assertions.assertThat;
 public class Practice01Test {
     @Test
     public void should_person_have_name_and_age() throws Exception {
-        Person person = new Person("Tom", 21);
+        Person person = new Person();
 
         assertThat(person.introduce());
         //assertThat(person.getAge()).isEqualTo(21);
