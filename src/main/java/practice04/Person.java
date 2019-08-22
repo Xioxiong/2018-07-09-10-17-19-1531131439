@@ -5,6 +5,9 @@ public class Person {
     private int age;
 
     public String introduce(){
+        return basicIntroduce();
+    }
+    public String basicIntroduce(){
         return "My name is Tom. I am 21 years old.";
     }
 }
